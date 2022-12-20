@@ -3,8 +3,8 @@ def solution(s):
     answer = ""
     list = s.split(" ")
 
-    for i in list:
-        tmp.append(int(i))
+    for num in list:
+        tmp.append(int(num))
 
     answer = str(min(tmp)) + ' ' + str(max(tmp))
     return answer
