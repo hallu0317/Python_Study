@@ -1,5 +1,6 @@
+import sys
 while True:
-    words = input()
+    words = sys.stdin.readline().rstrip()
     stack = []
     if words == '.':
         break
